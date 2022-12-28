@@ -3,8 +3,8 @@
 
 phrase = 'one'
 text = 'onetwonine'
-count = 0
 for j in range(len(phrase)):
+    count = 0
     for i in range(len(text)):
         if phrase[j] == text[i]:
             count+=1
